@@ -28,7 +28,9 @@ background-color: #FFFFFF;
     flex: none;
     order: 0;
     flex-grow: 0;
+margin-top: 100px;
 }
+
 .studio {
         font-size: 18px;
         line-height: 24px;
@@ -52,6 +54,7 @@ background-color: #FFFFFF;
     flex: none;
     order: 1;
     flex-grow: 0;
+
 }
 .flex-container {
     display: flex;
@@ -103,21 +106,22 @@ h1 {
     color: #FFFFFF;
     margin: 188px 384px 292px 384px;
 }
-button {
+.button-i {
 display: flex;
     flex-direction: row;
-    align-items: flex-start;
     padding: 16px 32px;
     gap: 10px;
     position: absolute;
     width: 169px;
     height: 56px;
-    /* IRIS */
     background: #4D5AE5;
-    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
-    border: 0px;
-    margin: 356px 547px 188px 547px;
+    cursor: pointer;
+    margin: 356px 548px 188px 548px;
+}
 
+.button-i:hover {
+        box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+        border-radius: 4px;
 }
 .button_text {
 width: 110px;
@@ -137,7 +141,7 @@ width: 110px;
     flex-direction: row;
     justify-content: center;
     flex-wrap: nowrap;
-    margin: 620px 136px 0px 136px;
+    margin: 620px 136px 72px 136px;
 }
 
 .strategy, 
@@ -185,6 +189,14 @@ h2 {
     margin: 72px 156px 0 156px;
    
 }
+.flex-cont-3-p {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    flex-wrap: nowrap;
+    margin: 48px 156px 0 156px;
+
+}
 
 .computer,
 .screens,
@@ -202,18 +214,12 @@ h2 {
         margin-bottom: 310px;
 }
 
- .mark-h,
- .tom-h, 
- .camila-h,
- .daniel-h {
+ .name-h {
     flex: 1 1 auto;
-    margin: 0px 24px 120px 0px;
+    margin: 0px 24px 0px 0px;
  }
 
- .mark,
- .tom,
- .camila,
- .daniel {
+ .name {
     margin-top: 0;
     height: 120px;
     width: 264px;
@@ -229,12 +235,11 @@ h2 {
  flex: none;
  order: 0;
  flex-grow: 0;
+    box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
+    border-radius: 0px 0px 4px 4px;
 }
  
-.mark-p,
-.tom-p,
-.camila-p,
-.daniel-p {
+.name-p {
 font-size: 16px;
     line-height: 24px;
     text-align: center;
@@ -246,6 +251,11 @@ font-size: 16px;
     margin: 8px 32px 68px 32px;
 }
 
+.sidebar-3-p {
+    width: 1264px;
+    height: 310px;
+    background: #2E2F42;
+}
 .sidebar-3 {
     width: 1264px;
     height: 310px;
@@ -253,15 +263,135 @@ font-size: 16px;
     margin-top: 852px;
     padding-top: 100px;
 }
-
-.footr {
-   margin-top: 100px;
-   margin-left: 156px;
-   width: 264px;
+.footr-p {
+    width: 264px;
+  padding-top: 8px;
+  padding-left: 156px;
+  margin-top: 120px;
 }
 .p-footr {
     font-size: 16px;
         line-height: 24px;
         letter-spacing: 0.02em;
         color: #E7E9FC;
+        
 }
+.footr {
+   margin-left: 156px;
+   width: 264px;
+   
+}
+
+.port-flex-cont {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    flex-wrap: nowrap;
+    margin: 96px 420px 0px 420px;
+}
+.all, 
+.site,
+.app,
+.design,
+.marketing {
+ flex: 1 1 auto;
+ margin: 0px 24px 0px 0px;
+cursor: pointer;
+}
+
+.all:hover,
+.site:hover,
+.app:hover,
+.design:hover,
+.marketing:hover {background: #404BBF;
+   box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1),
+   0px 2px 1px rgba(0, 0, 0, 0.08),
+   0px 2px 2px rgba(0, 0, 0, 0.12);
+   border-radius: 4px;}
+
+.all {
+    width: 69px;
+        height: 48px;
+background: #F4F4FD;
+    border: 1px solid #E7E9FC;
+    border-radius: 4px;
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+}
+
+.site {
+    width: 116px;
+    height: 48px;
+    background: #F4F4FD;
+    border: 1px solid #E7E9FC;
+    border-radius: 4px;
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+}
+
+.app {
+    width: 78px;
+        height: 48px;
+        background: #F4F4FD;
+        border: 1px solid #E7E9FC;
+        border-radius: 4px;
+        flex: none;
+        order: 2;
+        flex-grow: 0;
+}
+
+.design {
+    width: 101px;
+        height: 48px;
+        background: #F4F4FD;
+        border: 1px solid #E7E9FC;
+        border-radius: 4px;
+        flex: none;
+        order: 3;
+        flex-grow: 0;
+}
+
+.marketing {
+    width: 126px;
+        height: 48px;
+        background: #F4F4FD;
+        border: 1px solid #E7E9FC;
+        border-radius: 4px;
+        flex: none;
+        order: 4;
+        flex-grow: 0;
+}
+ .name-2 {
+     height: 120px;
+     width: 344px;
+     display: inline-block;
+     vertical-align: middle;
+     font-size: 20px;
+     line-height: 24px;
+     letter-spacing: 0.02em;
+     color: #2E2F42;
+     flex: none;
+     order: 0;
+     flex-grow: 0;
+    background: #FFFFFF;
+    border: 1px solid #E7E9FC;
+    padding-left: 16px;
+    margin: 0 0 0 0;
+
+ }
+ .name-p-2 {
+     font-size: 16px;
+     line-height: 24px;
+     letter-spacing: 0.02em;
+     color: #434455;
+     flex: none;
+     order: 1;
+     flex-grow: 0;
+     margin: 0;
+     padding: 0;
+    margin: 0 0 0 0;
+ }
+ 
+ 
