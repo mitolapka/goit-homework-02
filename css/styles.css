@@ -84,6 +84,11 @@ ul {
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
     border-radius: 4px;
 }
+.button-i:focus {
+    background: var(--pressed-stade-color);
+        box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+        border-radius: 4px;
+}
 
 .headers-sect-2 {
     font-size: 20px;
