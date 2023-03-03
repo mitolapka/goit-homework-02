@@ -254,6 +254,7 @@ padding-bottom: 100px;
 }
 .second-menu-item:not(:nth-child(4n)) {
     margin-right: 24px;
+
 }
 .third-container {
     display: flex;
