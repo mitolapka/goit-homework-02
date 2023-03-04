@@ -12,55 +12,75 @@
       rel="stylesheet"
     />
     <link rel="stylesheet" href="./css/styles.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.1.0/modern-normalize.min.css"
+      integrity="sha512-wpPYUAdjBVSE4KJnH1VR1HeZfpl1ub8YT/NKx4PuQ5NmX2tKuGu6U/JRp5y+Y8XG2tV+wKQpNHVUX03MfMFn9Q=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
   </head>
-  <body>
-    <header class="header-container container">
-      <nav class="page-nav">
-        <a href="./index.html" class="menu-web"
-          >WEB<span class="studio">STUDIO</span></a
-        >
-        <ul class="menu">
-          <li class="menu-item">
-            <a href="./studio.html" class="header">Studio</a>
-          </li>
-          <li class="menu-item">
-            <a href="./portfolio.html" class="header">Portfolio</a>
-          </li>
-          <li class="menu-item"><a href="" class="header">Contacts</a></li>
-        </ul>
-      </nav>
 
-      <address>
-        <ul class="menu">
-          <li>
-            <a href="mailto:info@devstudio.com" class="header-2 mail"
-              >info@devstudio.com</a
-            >
-          </li>
-          <li>
-            <a href="tel:+110001111111" class="header-2">+11 (000) 111-11-11</a>
-          </li>
-        </ul>
-      </address>
+  <body>
+    <header>
+      <div class="header-container container">
+        <nav class="page-nav">
+          <a href="./index.html" class="menu-web"
+            >WEB<span class="studio">STUDIO</span></a
+          >
+          <ul class="menu">
+            <li class="menu-item">
+              <a href="./studio.html" class="header">Studio</a>
+            </li>
+            <li class="menu-item">
+              <a href="./portfolio.html" class="header">Portfolio</a>
+            </li>
+            <li class="menu-item"><a href="" class="header">Contacts</a></li>
+          </ul>
+        </nav>
+
+        <address>
+          <ul class="menu">
+            <li class="mail">
+              <a href="mailto:info@devstudio.com" class="header-2"
+                >info@devstudio.com</a
+              >
+            </li>
+            <li>
+              <a href="tel:+110001111111" class="header-2"
+                >+11 (000) 111-11-11</a
+              >
+            </li>
+          </ul>
+        </address>
+      </div>
     </header>
 
     <main>
-      <section>
+      <section class="sect-but">
         <div class="container">
           <h1 hidden>Portfolio</h1>
           <ul class="buttons-portfolio">
-            <li><button type="button" class="button-p">All</button></li>
-            <li><button type="button" class="button-p">Web Site</button></li>
-            <li><button type="button" class="button-p">App</button></li>
-            <li><button type="button" class="button-p">Design</button></li>
-            <li><button type="button" class="button-p">Marketing</button></li>
+            <li class="mar-bot">
+              <button type="button" class="button-p">All</button>
+            </li>
+            <li class="mar-bot">
+              <button type="button" class="button-p">Web Site</button>
+            </li>
+            <li class="mar-bot">
+              <button type="button" class="button-p">App</button>
+            </li>
+            <li class="mar-bot">
+              <button type="button" class="button-p">Design</button>
+            </li>
+            <li class="mar-bot">
+              <button type="button" class="button-p">Marketing</button>
+            </li>
           </ul>
-        </div>
 
-        <ul class="container all-pict">
-          <div class="pictures-container">
+          <ul class="pictures-container">
             <li class="pictures-item">
-              <a class="name-h">
+              <a>
                 <img
                   src="./images/p_1.jpg"
                   alt="Banking"
@@ -77,7 +97,7 @@
             </li>
 
             <li class="pictures-item">
-              <a class="name-h"
+              <a
                 ><img
                   src="./images/p_2.jpg"
                   alt="Payment"
@@ -94,7 +114,7 @@
             </li>
 
             <li class="pictures-item">
-              <a class="name-h"
+              <a
                 ><img
                   src="./images/p_3.jpg"
                   alt="Meditation"
@@ -109,11 +129,9 @@
                 </div>
               </a>
             </li>
-          </div>
 
-          <div class="pictures-container">
             <li class="pictures-item">
-              <a class="name-h"
+              <a
                 ><img
                   src="./images/p_4.jpg"
                   alt="Taxi"
@@ -129,7 +147,7 @@
             </li>
 
             <li class="pictures-item">
-              <a class="name-h"
+              <a
                 ><img
                   src="./images/p_5.jpg"
                   alt="Screen"
@@ -145,7 +163,7 @@
             </li>
 
             <li class="pictures-item">
-              <a class="name-h"
+              <a
                 ><img
                   src="./images/p_6.jpg"
                   alt="Inlina Courses"
@@ -159,11 +177,9 @@
                 </div>
               </a>
             </li>
-          </div>
 
-          <div class="pictures-container">
             <li class="pictures-item">
-              <a class="name-h"
+              <a
                 ><img
                   src="./images/p_7.jpg"
                   alt="Instagram"
@@ -179,7 +195,7 @@
             </li>
 
             <li class="pictures-item">
-              <a class="name-h">
+              <a>
                 <img
                   src="./images/p_8.jpg"
                   alt="Organic Food"
@@ -195,7 +211,7 @@
             </li>
 
             <li class="pictures-item">
-              <a class="name-h"
+              <a
                 ><img
                   src="./images/p_9.jpg"
                   alt="Fresh Coffee"
@@ -210,8 +226,8 @@
                 </div>
               </a>
             </li>
-          </div>
-        </ul>
+          </ul>
+        </div>
       </section>
     </main>
 
